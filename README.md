@@ -13,6 +13,8 @@ This program is a command-line README file generator for your projects. It strea
 * [Tests](#tests)
 * [Usage](#usage)
 
+* [Video Demonstration](#video-demonstration)
+
 * [License](#license)
 
 * [Contributing](#contributing)
@@ -38,7 +40,9 @@ npm test
 
 Users should clone the repository, run "npm install" to install dependencies, and then run "npm start" to start the application locally. Users will need to have Node version 16 or above installed.
 
+## Video Demonstration
 
+<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/260683c8b3184506a6690dfeacf7203d?sid=8d87575a-fabb-41aa-9feb-1fb6f4a6fcdd" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 ## License
 This project is licensed under the MIT License.

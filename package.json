@@ -1,13 +1,14 @@
 {
-  "name": "static-site",
+  "name": "readme-generator",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Dairon Reijna",
+  "license": "MIT",
   "dependencies": {
     "inquirer": "^6.3.1"
   }

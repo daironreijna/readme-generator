@@ -17,6 +17,11 @@ const questions = [
     },
     {
         type: "input",
+        name: "repo",
+        message: "What is the project's Github repo name?\n The last part of the repo url e.g. github.com/user/**repo**",
+    },
+    {
+        type: "input",
         name: "title",
         message: "What is your project's name?",
     },
@@ -65,8 +70,14 @@ function init() {
     inquirer
         .prompt(questions)
         .then(response => {
-            console.log(`Generate a README...`)
-            writeToFile('README.md', generateMarkdown({...response}))
+            console.log(`
+
+Generate a README...
+
+Thank you for your responses. The program will now generate a README file with the provided information.
+
+This README file can be found in your project's directory. The output file "README.md" will contain all the information you've provided, organized into a well-structured README for your project.`)
+            writeToFile('README.md', generateMarkdown({ ...response }))
         })
 
 }
